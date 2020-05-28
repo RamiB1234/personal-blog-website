@@ -1,15 +1,14 @@
 .container {
     display: grid;
     width: 100vw;
-    grid-template-columns: 25vw 25vw 25vw;
-    grid-template-rows: 100px 50px 600px 35px;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 100px 50px 600px 45px;
     grid-gap: 25px;
     grid-template-areas: 
     "top top top"
     "nav nav nav"
     "left center right"
     "ft ft ft";
-    border: 2px solid orange;
     justify-content: center;
 }
 
@@ -17,14 +16,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
     grid-area: top;
+    font-family: 'Courier New', Courier, monospace;
 }
 #navLinks {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid blue;
     grid-area: nav;
 }
 #cardLeft {
@@ -34,6 +32,10 @@
     justify-content: center;
     border: 1px solid gray;
     grid-area: left;
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 10px; 
+    height: 70%;
 }
 #cardCenter{
     display: flex;
@@ -42,6 +44,10 @@
     justify-content: center;
     border: 1px solid gray;
     grid-area: center;
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 10px; 
+    height: 70%;
 }
 #cardRight {
     display: flex;
@@ -50,13 +56,19 @@
     justify-content: center;
     border: 1px solid gray;
     grid-area: right;
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 10px; 
+    height: 70%;
 }
 #footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid darkcyan;
     grid-area: ft;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 5px;
 }
 #card1Image{
     background-image: url('../images/1.jpg');
