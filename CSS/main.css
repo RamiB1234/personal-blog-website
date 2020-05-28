@@ -1,0 +1,78 @@
+.container {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-template-rows: 100px 50px 600px 35px;
+    grid-gap: 25px;
+    grid-template-areas: 
+    "top top top"
+    "nav nav nav"
+    "left center right"
+    "ft ft ft";
+    border: 2px solid orange;
+    justify-content: center;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    grid-area: top;
+}
+#navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;
+    grid-area: nav;
+}
+#cardLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    grid-area: left;
+}
+#cardCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    grid-area: center;
+}
+#cardRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    grid-area: right;
+}
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid darkcyan;
+    grid-area: ft;
+}
+#card1Image{
+    background-image: url('../images/1.jpg');
+    background-size: 100% 100%;
+    width: 80%;
+    height: 150px;
+}
+#card2Image{
+    background-image: url('../images/2.jpg');
+    background-size: 100% 100%;
+    width: 80%;
+    height: 150px;
+}
+#card3Image{
+    background-image: url('../images/3.jpg');
+    background-size: 100% 100%;
+    width: 80%;
+    height: 150px;
+}
