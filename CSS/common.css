@@ -1,0 +1,49 @@
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: top;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-area: nav;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: ft;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 5px;
+}
+
+.post-header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #272825;
+    font-weight: bolder;
+}
+.post-body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #272825;
+    font-size: large;
+
+}
+
+.links{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+#subscribeBtn{
+    background-color: teal;
+    color: white;
+    border-radius: 7px;
+    height: 50%;
+}

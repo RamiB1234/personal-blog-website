@@ -4,8 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Post</title>
+    <link rel="stylesheet" type="text/css" href="CSS/post/post.css">
 </head>
 <body>
-    Post 1
+    <div id="fb-root"></div><script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_EN/sdk.js#xfbml=1&version=v7.0"></script>
+
+    <div class="container">
+        <header id="title">
+            <h1>Welcome to Rami's Blog</h1>
+        </header>
+        <nav id="navLinks">
+            <a href="index.html" class="links">Home</a>
+            <button type="button" id='subscribeBtn'>Subscribe</button> 
+        </nav>
+        <article id="main">
+            <h1 class='post-header'>Examples of Blogs – Inspiration for New Bloggers</h1>
+            <div id='date-text'>January 1,2014 by Rami</div>
+            <p class="post-body">
+                In this article, I have included a whole load of blog examples from a wide variety of different niches.
+            </p>
+            <p class="post-body">
+                Each example listed in this blog post are all different in some way and all bring something unique to their readers & subscribers.
+                I want to show you what is possible and how you can take inspiration from them and create an awesome <i>blog of your own</i>.
+            </p>
+            <h2 class='post-subheader'>Want to Start Your Own Blog?</h2>
+            <p class="post-body">
+                Remember that it doesn’t cost the earth to start your own blog. You can be up and running for as little as <b>$1.45</b> per month with <u>Hostinger</u>.
+            </p>
+            <h3 id='see-also'>See Also</h3>
+            <a href='post2.html' class="links">Not Dead Yet: Microsoft Issues Critical Security Patch for Windows XP</a>
+            <a href='post3.html'' class="links">3 Tips to ACTUALLY Achieve Your Goals</a>
+        </article>
+        <aside id="sidebar">
+            <div id='about'>
+                <h2 class='side-header'>About</h2>
+                <div id='about-pic'></div>
+                <b>Rami Bukhari</b>
+                <span><b>Software Developer</b> at <b>MBSC</b><br/></span>
+                <q id='about-text'>
+                    Rami is a passionate programmer, he develops
+                    web applications during the day, and makes games at night
+                </q>
+            </div>
+            <div id='linkArea'>
+                <h2 class='side-header'>Links</h2>
+                <a href="https://twitter.com/RamiBokhari" class="links">Twitter</a>
+                <a href="https://github.com/RamiB1234" class="links">Github</a>
+                <a href="https://www.linkedin.com/in/rami-bukhari/" class="links">Linkedin</a>
+            </div>
+            <div id='shareButtons'>
+                <h2 class='side-header'>Share</h2>
+                <!--Soical media share buttons-->
+                <div class="fb-share-button" 
+                data-href="https://developers.facebook.com/docs/plugins/" 
+                data-layout="button" data-size="large"><a target="_blank" 
+                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" 
+                class="fb-xfbml-parse-ignore">Share</a></div>
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <div class="a2a_kit a2a_default_style">
+                    <a class="a2a_button_linkedin_share"></a>
+                </div>
+                <script async src="https://static.addtoany.com/menu/page.js"></script>
+            </div>
+        </aside>
+        <footer id="footer">
+            Copyright 2020
+        </footer>
+    </div>
 </body>
 </html>

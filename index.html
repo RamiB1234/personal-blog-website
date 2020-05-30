@@ -4,43 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
-    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="CSS/main/main.css">
 </head>
 <body>
     <div class="container">
-        <div id="title">
+        <header id="title">
             <h1>Welcome to Rami's Blog</h1>
-        </div>
-        <div id="navLinks">
-            <a href="#">Home</a>
-        </div>
-        <div id="cardLeft">
-            <h2>Blog Post 1</h2>
+        </header>
+        <nav id="navLinks">
+            <a href="index.html" class="links">Home</a>
+            <button type="button" id='subscribeBtn'>Subscribe</button> 
+        </nav>
+        <section id="cardLeft">
+            <h2 class='post-header'>Examples of Blogs – Inspiration for New Bloggers</h2>
             <div id=card1Image> </div>
-            <p>
-                This is an example of a random post
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+            <p class="post-body">
+                In this article, I have included a whole load of blog examples from a wide variety of different niches.
             </p>
-            <a href='post1.html'>Read more</a>
-        </div>
-        <div id="cardCenter">
-            <h2>Blog Post 2</h2>
+            <a class="links" href='post1.html'>Read more</a>
+        </section>
+        <section id="cardCenter">
+            <h2 class='post-header'>Not Dead Yet: Microsoft Issues Critical Security Patch for Windows XP</h2>
             <div id=card2Image> </div>
-            <p>
+            <figcaption>Fig.2 - Windows XP Hill.</figcaption>
+            <p class="post-body">
                 This is an example of a random post
             </p>
-            <a href='post2.html'>Read more</a>
-        </div>
-        <div id="cardRight">
-            <h2>Blog Post 3</h2>
+            <a class="links" href='post2.html'>Read more</a>
+        </section>
+        <section id="cardRight">
+            <h2 class='post-header'>3 Tips to ACTUALLY Achieve Your Goals</h2>
             <div id=card3Image> </div>
-            <p>
+            <figcaption>Fig.3 - Somewhere.</figcaption>
+            <p class="post-body">
                 This is an example of a random post
             </p>
-            <a href='post3.html'>Read more</a>
-        </div>
-        <div id="footer">
+            <a class="links" href='post3.html'>Read more</a>
+        </section>
+        <footer id="footer">
             Copyright 2020
-        </div>
+        </footer>
     </div>
 </body>
 </html>

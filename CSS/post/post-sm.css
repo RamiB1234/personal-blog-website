@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 60vw;
+    grid-template-rows: 100px 50px 700px 1000px 45px;
+    grid-gap: 25px;
+    grid-template-areas: 
+    "top"
+    "nav"
+    "side"
+    "main"
+    "ft";
+    justify-content: center;
+}

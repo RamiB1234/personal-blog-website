@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 60vw;
+    grid-template-rows: 100px 50px 500px 500px 500px 45px;
+    grid-gap: 25px;
+    grid-template-areas: 
+    "top"
+    "nav"
+    "left-1"
+    "left-2"
+    "left-3"
+    "ft";
+    justify-content: center;
+}
+
+#cardLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: left-1;
+    background-color: #f1f3f1;
+    border-radius: 15px;
+    padding: 10px; 
+    height: 70%;
+}
+
+#cardCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: left-2;
+    background-color: #f1f3f1;
+    border-radius: 15px;
+    padding: 10px; 
+    height: 70%;
+}
+
+#cardRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: left-3;
+    background-color: #f1f3f1;
+    border-radius: 15px;
+    padding: 10px; 
+    height: 70%;
+}

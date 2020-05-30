@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 100px 50px 1000px 45px;
+    grid-gap: 25px;
+    grid-template-areas: 
+    "top top top"
+    "nav nav nav"
+    "main main side"
+    "ft ft ft";
+    justify-content: center;
+}

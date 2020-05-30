@@ -1,0 +1,32 @@
+@import url('../common.css');
+
+/* Small Screens */
+@import url('main-sm.css');
+
+/* Medium Screens */
+@import url('main-md.css') (min-width: 600px) and (max-width:900px);
+  
+/* Large Screens */
+@import url('main-lg.css') (min-width: 901px);
+
+#card1Image{
+    background-image: url('../../images/1.jpg');
+    background-size: 100% 100%;
+    width: 80%;
+    height: 150px;
+}
+
+#card2Image{
+    background-image: url('../../images/2.jpg');
+    background-size: 100% 100%;
+    width: 80%;
+    height: 150px;
+}
+
+#card3Image{
+    background-image: url('../../images/3.jpg');
+    background-size: 100% 100%;
+    width: 80%;
+    height: 150px;
+}
+
